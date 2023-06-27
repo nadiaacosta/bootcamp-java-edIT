@@ -1,0 +1,6 @@
+Ejercicio 1 respuesta:
+El comando a utilizar en caso de que quiera pausar el trabajo sin hacer un commit es "git stash", el cual me permitiria guardar los cambios pero sin aplicarlos realmente, para que yo pueda irme a otra rama a hacer lo que tenga que hacer y volver a retomar y terminar cuando pueda.
+Ejercicio2 respuesta:
+Para subir los cambios a produccion debo hacer un pull request de mi rama front-react a la rama master que es donde se encuentra produccion.
+
+
