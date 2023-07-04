@@ -1,0 +1,75 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 140vh;
+    background-color: #edf7ff;
+    border-top: #3d159c 5px solid;
+}
+
+#conteiner1 {
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+h1 {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 100px;
+    color: #3d159c;
+    display: inline-block;
+    height: 100px;
+    width: 461px;
+}
+
+h2 {
+    font-family: 'Asap', sans-serif;
+    font-size: 28px;
+    font-weight:400;
+    color: #3d159c;
+}
+
+.parrafo {
+    font-family: 'Asap', sans-serif;
+    font-size: 18px;
+    margin-bottom: 5vh;
+}
+
+#parrafos_conteiner {
+    width: 70vh;
+    margin-top: 8vh;
+}
+
+h3 {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 25px;
+    color: #3d159c;
+    margin-bottom: 1vh;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-family: 'Asap', sans-serif;
+    font-size: 16px;
+    padding-bottom: 1.5vh;
+    font-weight:700;
+    padding-right: 10vh;
+}
+
+#modo {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 100px;
+    color: #3d159c;
+    display: inline;
+    opacity: 80%;
+    padding-right: 0vh;
+}

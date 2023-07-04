@@ -1,0 +1,76 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: inline-block;
+    text-align: center;
+    width: 80vh;
+    height: 60vh;
+    border: 1px solid black;
+    margin-top: 5vh;
+}
+
+#NOV {
+    background-color: black;
+    font-size: 20px;
+    height: 12vh;
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-top: 2vh;
+}
+
+#Black {
+    background-color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#Friday {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    height: 25vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+#conteiner_descuentos {
+    display: flex;
+    justify-content: center;
+}
+
+#Descuentos {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-left: 5px;
+}
+
+#hastaEl {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+#NoTeLoPierdas {
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    height: 9vh;
+}

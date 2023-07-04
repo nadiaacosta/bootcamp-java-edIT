@@ -1,0 +1,84 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: inline-block;
+    text-align: center;
+    width: 80vh;
+    height: 60vh;
+    margin-top: 5vh;
+    border-top: 4vh solid rgb(13, 15, 163) ;
+    border-bottom: 6vh solid rgb(13, 15, 163) ;
+}
+
+#NOV {
+    font-size: 20px;
+    height: 12vh;
+    color: rgb(13, 15, 163);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-top: 2vh;
+}
+
+#Black {
+    background-color: rgb(7, 7, 7);
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#Friday {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(10, 10, 10);
+    height: 25vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+#conteiner_descuentos {
+    display: flex;
+    justify-content: center;
+}
+
+#Descuentos {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-left: 5px;
+    color: rgb(13, 15, 163);
+}
+
+#hastaEl {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-left: 5px;
+    color: rgb(13, 15, 163);
+}
+
+#Cincuenta {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-left: 5px;
+    color: rgb(235, 235, 243);
+    background-color: black;
+}
+
+#NoTeLoPierdas {
+    color: rgb(13, 15, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    height: 9vh;
+}
