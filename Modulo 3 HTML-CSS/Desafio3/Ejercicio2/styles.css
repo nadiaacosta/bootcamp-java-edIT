@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    margin-top: 4rem;
+    border: solid 1px rgb(112, 109, 109);
+    padding: 2rem;
+    border-radius: 5px;
+    padding-top: 0.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    color: #04146c;
+    padding-top: 0.5rem;
+}
+
+#home {
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
+
+
+#logo {
+    width: 14%;
+}
+
+h4 {
+    font-family: Roboto Slab;
+    font-weight: bold;
+    color: #2c00cc;
+    font-size: 22px;
+    margin-top: 2rem;
+}
+
+p {
+    font-family: Roboto;
+    font-weight: 400;
+    color: #04146c;
+    font-size: 17px;
+    margin-top: 1.5rem;
+}
+
+.placeholder {
+    font-family: Roboto;
+    font-weight: 700;
+    color: #04146c;
+    font-size: 16px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    border: #2c00cc 1px solid;
+    width: 25rem;
+    height: 2.5rem;
+    border-radius: 2px;
+}
+
+span {
+    color: crimson;
+}
+
+textarea {
+    width: 25rem;
+    border: #2c00cc 1px solid;
+    border-radius: 2px;
+    margin-bottom: 0.5rem;
+}
+
+#button1 {
+    background-color: #f98500;
+    font-family: Roboto;
+    font-weight: 400;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 6rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+#button2 {
+    background-color: #2c00cc;
+    font-family: Roboto;
+    font-weight: 400;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 6rem;
+    height: 2rem;
+    margin-right: 1rem;
+}

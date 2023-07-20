@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: Coolvetica;
+    src: url(./fuentes/coolvetica\ rg.otf);
+    font-weight: lighter;
+}
+
+section {
+    padding-top: 8vh; 
+    padding-left: 8vh;
+    width: 190vh;
+}
+
+h1 {
+    font-family: Coolvetica;
+    font-weight: normal;
+    font-size: 50px;
+    color: #0a2ff1;
+    margin-bottom: 18px;
+}
+
+#subtitulo {
+    font-family: Roboto;
+    color: #04146c;
+    font-size: 18px;
+}
+
+span {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+#container_cards {
+    display: flex;
+}
+
+.card {
+    width: 45vh;
+    background-color: #eff2ff;
+    padding: 35px;
+    margin-top: 40px;
+    margin-left: 25px;
+}
+
+.usuario {
+    font-family: Roboto;
+    font-weight: lighter;
+    font-style: italic;
+    color: #04146c;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-family: Roboto;
+    font-weight: 900;
+    color: #04146c;
+    margin-bottom: 8px;
+}
+
+.texto_card {
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+img {
+    width: 20vh;
+    margin-bottom: 5px;
+}

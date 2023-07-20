@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-top: 8vh;
+    padding-left: 8vh;
+}
+
+main {
+    width: 50%;
+}
+
+
+h1 {
+    font-family: Mulish;
+    font-weight: 900;
+    color: #04146c;
+    font-size: 45px;
+    margin-bottom: 4vh;
+}
+
+h3 {
+    font-family: Mulish;
+    font-weight: 700;
+    color: #0a2ff1;
+    margin-top: 8px;
+}
+
+p {
+    font-family: Mulish;
+    font-weight: 400;
+    color: #04146c;
+    margin-top: 2vh;
+}
+
+img {
+    width: 55px;
+    margin-right: 25px;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 4vh;
+}

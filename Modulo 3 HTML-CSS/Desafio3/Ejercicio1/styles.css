@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    border-top: 3rem solid #0a2ff1;;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 5.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #04146c;
+    margin-left: 3rem;
+    padding-top: 2rem;
+}
+
+#home {
+    font-weight: 700;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-family: Roboto Slab;
+    font-weight: bold;
+    color: #0a2ff1;
+    font-size: 4.5rem;
+    margin-top: 3.5rem;
+}
+
+h3 {
+    font-family: Roboto;
+    font-weight: 400;
+    color: #04146c;
+    font-size: 1.7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#img_web {
+    width: 100%;
+}

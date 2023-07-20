@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    text-align: center;
+    width: 80vh;
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: url(./fuentes/coolvetica\ rg.otf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./fuentes/Roboto-Light.ttf);
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./fuentes/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+
+h1 {
+    font-family: Coolvetica;
+    color: #0a2ff1;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: Roboto;
+    font-weight: lighter;
+    font-size: 21px ;
+    color: #04146c;
+    margin-bottom: 20px;
+    width: 71vh ;
+}
+
+#buttons_container {
+    display: block;
+    justify-content: center;
+}
+
+button {
+    margin-top: 4vh;
+    width: 44vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 21px;
+
+}
+
+#button1 {
+    background-color: #0a2ff1;
+    border: #0a2ff1 1px solid;
+    color: beige;
+}
+
+#button2 {
+    border: #0a2ff1 solid 2px;
+    background-color: white;
+}

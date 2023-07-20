@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Coolvetica;
+    src: url(./fuentes/coolvetica\ rg\ \(2\).otf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(./fuentes/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(./fuentes/Roboto-Regular.ttf);
+}
+
+main {
+    padding: 1em;
+}
+
+h1 {
+    font-family: Coolvetica;
+    font-weight: normal;
+    color: #0a2ff1;
+    font-size: 60px;
+    margin-bottom: 6vh;
+    margin-left: 5vh;
+}
+
+#container_cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 25%;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+#img_apple {
+    width: 18%;
+}
+
+.card {
+    background-color: #eff2ff;
+    border-radius: 5%;
+    text-align: center;
+    width: 20% ;
+    height: 65%;
+
+}
+
+h2 {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0a2ff1;
+    margin-bottom: 30px;
+}
+
+P {
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 15px;
+    color: #04146c;
+    margin-bottom: 20px;
+    margin-left: 18px;
+}

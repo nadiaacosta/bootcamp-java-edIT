@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding-left: 5vh;
+    padding-top: 5vh;
+    width: 55%;
+}
+
+header {
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 26px;
+    color: #0a2ff1;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-family: Mulish;
+    font-weight: 900;
+    font-size: 55px;
+    color: #0a2ff1; 
+    margin-bottom: 60px;
+}
+
+p {
+    font-family: Mulish;
+    font-weight: 400;
+    font-size: 20px;
+    color: #04146c;
+    margin-bottom: 25px;
+}
+
+span {
+    font-family: Mulish;
+    font-weight: 700;
+}
+
+button {
+    font-family: Mulish;
+    font-weight: 700;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: #0a2ff1;
+    border: #0a2ff1 solid 1px;
+    width: 300px;
+    height: 60px;
+}
