@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+}
+
+h1 {
+    font-family: Mulish;
+    font-weight: 700;
+    color: #04146c;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container_main {
+    text-align: center;
+}
+
+.container_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn {
+    border: 1.5px #1936da solid;
+    border-radius: 0;
+    font-family: Mulish;
+    font-weight: 400;
+    color: #04146c;
+}
+
+.card {
+    border: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3.5rem;
+}
+
+.card-img-top {
+    width: 12rem;
+}
+
+.card-title {
+    font-family: Mulish;
+    font-weight: 700;
+    color: #0a2ff1;
+    font-size: 2rem;
+}
+
+.card-Subtitle {
+    font-family: Mulish;
+    font-weight: 700;
+    color: #04146c;
+    font-size: 1.3rem;
+}
+
+p {
+    font-family: Mulish;
+    font-weight: 400;
+    color: #04146c;
+    font-size: 1rem;
+}

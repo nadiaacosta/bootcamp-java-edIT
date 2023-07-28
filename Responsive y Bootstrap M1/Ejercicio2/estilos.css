@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    color: rgb(50, 50, 197);
+    font-size: 45px;
+    margin: 2rem;
+}
+
+.container_cards {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-left: 1.5rem;
+    color: white;
+    border: none;
+    margin-bottom: 3rem;
+}
+
+#card1 {
+    background-image: url(./imagenes/ProgramasInternacionales.png);
+    background-size: cover;
+}
+
+#card2 {
+    background-image: url(./imagenes/ParcticasProfesionales.png);
+    background-size: cover;
+}
+
+#card3 {
+    background-image: url(./imagenes/Becas.png);
+    background-size: cover;
+}
+
+#card4 {
+    background-image: url(./imagenes/CampusVirtual.png);
+    background-size: cover;
+}
+
+
+.card-body {
+    color: white;
+    display: flex;
+    margin-top: 6.5rem;
+    padding: 0;
+    margin-bottom: 0;
+    align-items: center;
+}
+
+h5 {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+.card-title {
+    margin-bottom: 0;
+}
+
+.card-text {
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+}
